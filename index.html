@@ -20,7 +20,7 @@
         <div class="col-lg-2">
         </div>
         <div class="col-lg-8 mb-4">
-            <div>
+            <div id="info">
                 <p>
                     <button class="btn bg-info text-white" type="button" data-toggle="collapse"
                             data-target="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
@@ -39,7 +39,7 @@
                         Experience
                     </button>
                 </p>
-                <div class="collapse mb-2 show" id="collapseAbout">
+                <div class="collapse mb-2 show" data-parent="#info" id="collapseAbout">
                     <div class="card card-body p-0">
                         <h5 class="card-title bg-info text-white p-3 m-0">All About Alex</h5>
                         <div class="row p-4">
@@ -105,7 +105,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="collapse mb-2" id="collapseProjects">
+                <div class="collapse mb-2" data-parent="#info" id="collapseProjects">
                     <div class="card card-body p-0">
                         <h5 class="card-title bg-success text-white p-3 m-0">Projects</h5>
                         <div class="row p-4">
@@ -127,7 +127,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="collapse mb-2" id="collapseSkills">
+                <div class="collapse mb-2" data-parent="#info" id="collapseSkills">
                     <div class="card card-body p-0">
                         <h5 class="card-title bg-secondary text-white p-3 m-0">Skills</h5>
                         <div class="row p-4">
@@ -166,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="collapse mb-2" id="collapseExp">
+                <div class="collapse mb-2" data-parent="#info" id="collapseExp">
                     <div class="card card-body p-0">
                         <h5 class="card-title bg-primary text-white p-3 m-0">Experience</h5>
                         <div class="row p-4">
